@@ -14,8 +14,8 @@
 - [documents/study_manual.md](documents/study_manual.md) 是 AI 根据科目一题库和新规整理的知识点学习手册
 - [documents/change172.txt](documents/change172.txt) 是 2025.1.1 的令第172号新规
 
-### 快速使用
-- 在release中下载全库，运行bank_practice.exe（或者手动下载全库，运行[bank_practice.py](bank_practice.py)脚本）以在一个简易的刷题程序中刷题
+### 刷题
+- 在release中下载并运行bank_practice.exe（或者手动下载全库，运行[bank_practice.py](bank_practice.py)脚本）
 - 支持科一、科四选择，支持刷题、背题、模拟考试，支持刷全部题、只刷没做过的题、只刷错题、刷指定题。支持刷题记录，支持题目图片查看。
 
 ### 题库json格式说明
