@@ -1,5 +1,5 @@
 # Exam Question Bank for Chinese Driving Test Subject 1 & Subject 4
-科目一、四考试题库
+驾考科目一、四考试题库、复习资料及刷题程序
 
 ### 快速使用：刷题
 - 在release中下载并运行bank_practice.exe（或者手动下载全库，运行[bank_practice.py](bank_practice.py)脚本）
