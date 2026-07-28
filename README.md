@@ -15,7 +15,7 @@
 
 ### 资料说明：
 - [documents/JKBD.pdf](documents/JKBD.pdf) 是驾考宝典科目一课程 PPT 截取图合集
-- [documents/study_manual.md](documents/study_manual.md) 是 AI 根据科目一题库和新规整理的知识点学习手册
+- [documents/study_manual.md](documents/study_manual.md) 是 AI 根据科目一题库整理的知识点学习手册（适用最新新规）
 - [documents/change172.txt](documents/change172.txt) 是 2025.1.1 的令第172号新规
 
 ### 题库json格式说明
