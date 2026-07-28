@@ -1,2 +1,50 @@
-# Subject-1-Exam-Question-Bank
-科目一考试题库
+# Exam Question Bank for Chinese Driving Test Subject 1 & Subject 4
+科目一、四考试题库
+
+### 题库说明：
+- Question-Bank.json为经过新规（截止2026.7.28）纠正的题库，基于[2022年第三方题库](https://github.com/doupoa/DrivingTestSubjectOne)（Question-Bank-2022.json），原题库包含2022年的新规但不包含2025年的新规，也不包含2025新规题，修正版题库根据新规对题库中过时的题目做了修正（新规：2025.1.1 第172号）
+- 官方不公开驾考科目一 / 科目四题库，所有第三方软件题库均通过考生回忆汇总和其他方式取得，但与官方题相似
+- 第三方软件题库与本题库基本相似，但会多一些专为新规设计的新规题。
+- 根据实际考试经历（~~*你怎么知道我考了99分*~~），本题库和第三方软件题库与考试正式题库的原题率均不算特别高，但题目相似率很高。
+- 题库共约 4378 题
+- 题库中图片通过 url 在线连接第三方呈现
+
+### 资料说明：
+- JKBD.pdf 是驾考宝典科目一课程 PPT 截取图合集
+- study_manual.md 是 AI 根据科目一题库和新规整理的知识点学习手册
+- change172.txt 是 2025.1.1 的令第172号新规
+
+### 快速使用
+- 下载全库，运行.py脚本以在一个简易的刷题程序中刷题。
+
+### 题库json格式说明
+| 字段名 | 含义 |
+|---|---|
+| `id` | 题目唯一 ID |
+| `question` | 题干 |
+| `answer` | 正确答案 |
+| `answerSkill` | 答题技巧 |
+| `answerSkillExplain` | 答案解析 |
+| `remark` | 备注（HTML 格式，常为法规出处） |
+| `itemsTitleArray` | 选项标题 |
+| `itemsDescArray` | 选项描述 |
+| `url` | 题目主图（CDN，.jpg） |
+| `coverUrl` | 封面/讲解配图（CDN，.png） |
+| `aliyVid` | 阿里云视频讲解 ID |
+| `vedioExplainFlag` | 是否有视频讲解 |
+| `chapterId` | 章节 ID |
+| `subject` | 科目 |
+| `type` | 题型 |
+| `typeDesc` | 题型描述 |
+| `regionCode` | 地区码 |
+| `style` | 样式 |
+| `newRuleFlag` | 新规标记 |
+| `secretFlag` | 密题标记 |
+| `difficulty` | 难度等级 |
+| `errorRate` | 错误率（%） |
+| `easyErrorFlag` | 易错标记 |
+| `errorProneFlag` | 易错标记 |
+| `score` | 分值 |
+| `flag` | 标记 |
+| `selectedFlag` | 选中标记 |
+| `versionNo` | 版本号 |
